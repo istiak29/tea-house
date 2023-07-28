@@ -121,53 +121,193 @@
             humour, or randomised words which don't look even slightly
             believable.
           </p>
+        </div>
 
-          <!-- Tea card -->
+        <!-- Tea card -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ml-5 mr-5 lg:ml-56 lg:mr-56 gap-7"
+        >
+          <!-- First Tea Card -->
           <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ml-5 mr-5 lg:ml-56 lg:mr-56"
+            class="card card-compact bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]"
           >
-            <!-- First Tea Card -->
-            <div
-              class="card card-compact bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]"
-            >
-              <figure>
-                <img src="/images/tea-1.png" alt="tea mug" />
-              </figure>
-              <div class="card-body">
-                <h2 class="font-bold text-2xl">Milk Tea</h2>
-                <p class="text-sm font-semibold lg:w-52 mx-auto">
-                  Creamer could be replaced by fresh milk
-                </p>
-                <!-- Modal Details -->
-                <!-- Open the modal using ID.showModal() method -->
-                <button class="" onclick="my_modal_1.showModal()">
-                  <h3>Details</h3>
-                </button>
-                <dialog id="my_modal_1" class="modal">
-                  <form method="dialog" class="modal-box">
-                    <figure class="text-center">
-                      <img src="/images/tea-1.png" alt="tea mug" />
-                    </figure>
-                    <h3 class="font-bold text-3xl">It's Milk Tea!</h3>
-                    <p class="py-4 font-semibold">
-                      Start from only $50 <br />
-                      Hurry up...
-                    </p>
+            <figure>
+              <img src="/images/tea-1.png" alt="tea mug" />
+            </figure>
+            <div class="card-body">
+              <h2 class="font-bold text-2xl">Milk Tea</h2>
+              <p class="text-sm font-semibold lg:w-52 mx-auto">
+                Creamer could be replaced by fresh milk
+              </p>
+              <!-- Modal Details -->
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="text-pink-400" onclick="my_modal_1.showModal()">
+                Details
+              </button>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="text-center">
+                    <img src="/images/tea-1.png" alt="tea mug" />
+                  </figure>
+                  <h3 class="font-bold text-3xl">It's Milk Tea!</h3>
+                  <p class="py-4 font-semibold">
+                    Start from only $50 <br />
+                    Hurry up...
+                  </p>
+                  <div>
+                    <!-- Button -->
                     <div>
-                        <!-- Button -->
-                      <div>
-                        <button class="btn btn-outline btn-secondary lg:btn-lg md:btn-md">
-                          Buy Me
-                        </button>
-                      </div>
-                      <div class="my-5">
-                        <!-- if there is a button in form, it will close the modal -->
-                        <button class="btn btn-sm">Close</button>
-                      </div>
+                      <button
+                        class="btn btn-outline btn-secondary lg:btn-lg md:btn-md"
+                      >
+                        Buy Me
+                      </button>
                     </div>
-                  </form>
-                </dialog>
-              </div>
+                    <div class="modal-action my-5">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn btn-sm">Close</button>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+
+          <!-- Second card -->
+          <div
+            class="card card-compact bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <figure>
+              <img src="/images/tea-2.png" alt="tea mug" />
+            </figure>
+            <div class="card-body">
+              <h2 class="font-bold text-2xl">Black Tea</h2>
+              <p class="text-sm font-semibold lg:w-52 mx-auto">
+                Creamer could be replaced by fresh milk
+              </p>
+              <!-- Modal Details -->
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="" onclick="my_modal_1.showModal()">
+                <h3 class="text-pink-400">Details</h3>
+              </button>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="text-center">
+                    <img src="/images/tea-1.png" alt="tea mug" />
+                  </figure>
+                  <h3 class="font-bold text-3xl">It's Milk Tea!</h3>
+                  <p class="py-4 font-semibold">
+                    Start from only $50 <br />
+                    Hurry up...
+                  </p>
+                  <div>
+                    <!-- Button -->
+                    <div>
+                      <button
+                        class="btn btn-outline btn-secondary lg:btn-lg md:btn-md"
+                      >
+                        Buy Me
+                      </button>
+                    </div>
+                    <div class="my-5">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn btn-sm">Close</button>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+
+          <!-- Third card -->
+          <div
+            class="card card-compact bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <figure>
+              <img src="/images/tea-3.png" alt="tea mug" />
+            </figure>
+            <div class="card-body">
+              <h2 class="font-bold text-2xl">Lemon Tea</h2>
+              <p class="text-sm font-semibold lg:w-52 mx-auto">
+                Creamer could be replaced by fresh milk
+              </p>
+              <!-- Modal Details -->
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="" onclick="my_modal_1.showModal()">
+                <h3 class="text-pink-400">Details</h3>
+              </button>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="text-center">
+                    <img src="/images/tea-1.png" alt="tea mug" />
+                  </figure>
+                  <h3 class="font-bold text-3xl">It's Milk Tea!</h3>
+                  <p class="py-4 font-semibold">
+                    Start from only $50 <br />
+                    Hurry up...
+                  </p>
+                  <div>
+                    <!-- Button -->
+                    <div>
+                      <button
+                        class="btn btn-outline btn-secondary lg:btn-lg md:btn-md"
+                      >
+                        Buy Me
+                      </button>
+                    </div>
+                    <div class="my-5">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn btn-sm">Close</button>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+
+          <!-- Forth card -->
+          <div
+            class="card card-compact bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <figure>
+              <img src="/images/tea-4.png" alt="tea mug" />
+            </figure>
+            <div class="card-body">
+              <h2 class="font-bold text-2xl">Green Tea</h2>
+              <p class="text-sm font-semibold lg:w-52 mx-auto">
+                Creamer could be replaced by fresh milk
+              </p>
+              <!-- Modal Details -->
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="" onclick="my_modal_1.showModal()">
+                <h3 class="text-pink-400">Details</h3>
+              </button>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="text-center">
+                    <img src="/images/tea-1.png" alt="tea mug" />
+                  </figure>
+                  <h3 class="font-bold text-3xl">It's Milk Tea!</h3>
+                  <p class="py-4 font-semibold">
+                    Start from only $50 <br />
+                    Hurry up...
+                  </p>
+                  <div>
+                    <!-- Button -->
+                    <div>
+                      <button
+                        class="btn btn-outline btn-secondary lg:btn-lg md:btn-md"
+                      >
+                        Buy Me
+                      </button>
+                    </div>
+                    <div class="modal-action">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
             </div>
           </div>
         </div>
