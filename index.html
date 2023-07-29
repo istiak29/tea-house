@@ -18,12 +18,16 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              "grad-star": "#FF8938",
+              "grad-end": "#F00",
             },
           },
         },
       };
     </script>
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/e7cde69d19.js" crossorigin="anonymous"></script>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -372,19 +376,19 @@
         <div class="flex justify-center items-center">
           <div class="">
             <h3 class="font-extrabold text-5xl text-white mb-5">
-            Meet Our Super Clients
-          </h3>
-          <p class="font-medium text-lg text-gray-200 mb-7">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
-          </p>
-          <button class="font-bold text-xl btn btn-active">Show All</button>
+              Meet Our Super Clients
+            </h3>
+            <p class="font-medium text-lg text-gray-200 mb-7">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <button class="font-bold text-xl btn btn-active">Show All</button>
           </div>
         </div>
         <!-- clint review container -->
-        <div  class="relative">
+        <div class="relative">
           <!-- next Review -->
           <div class="relative opacity-40 p-10 rounded-lg bg-white mb-14 z-10">
             <img
@@ -402,7 +406,9 @@
           </div>
 
           <!-- current review -->
-          <div class="absolute top-36 -left-9 lg:-left-20 p-10 rounded-lg bg-white lg:max-w-md z-20">
+          <div
+            class="absolute top-36 -left-9 lg:-left-20 p-10 rounded-lg bg-white lg:max-w-md z-20"
+          >
             <img
               class="absolute -left-6 -top-5 bg-white border-4 border-white rounded-full"
               src="images/client.png"
@@ -434,7 +440,131 @@
           </div>
         </div>
       </section>
+
+      <!-- News and Event -->
+      <section class="container mx-auto">
+        <!-- contents -->
+        <div class="text-center my-24">
+          <h4 class="font-extrabold text-5xl mb-5">News & Events</h4>
+          <p
+            class="text-lg font-medium ml-3 mr-3 lg:max-w-3xl lg:mx-auto mb-12"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+
+        <!-- card container-->
+        <div class="grid grid-col-1 lg:grid-cols-3 md:gap-3 m-7 lg:m-0">
+          <!-- card-1 -->
+          <div class="flex items-center">
+            <div class="border-2 p-5 space-y-4">
+              <img src="images/news-1.png" alt="" />
+              <p class="text-sm font-medium text-gray-500">Feb 05, 2027</p>
+              <h4 class="font-extrabold text-xl">
+                Collecting 8 points for <br />discount
+              </h4>
+              <p class="text-sm font-medium text-gray-500 w-72">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="btn-link">Learn More</button>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div class="flex items-center">
+            <div class="border-2 p-5 space-y-4">
+              <img src="images/news-2.png" alt="" />
+              <p class="text-sm font-medium text-gray-500">Feb 05, 2027</p>
+              <h4 class="font-extrabold text-xl">
+                Collecting 8 points for <br />discount
+              </h4>
+              <p class="text-sm font-medium text-gray-500 w-72">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="btn-link">Learn More</button>
+            </div>
+          </div>
+
+          <!-- card-3 -->
+          <div class="flex items-center">
+            <div class="border-2 p-5 space-y-4">
+              <img src="images/news-3.png" alt="" />
+              <p class="text-sm font-medium text-gray-500">Feb 05, 2027</p>
+              <h4 class="font-extrabold text-xl">
+                Collecting 8 points for <br />discount
+              </h4>
+              <p class="text-sm font-medium text-gray-500 w-72">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="btn-link">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer class="p-10 bg-base-200  mt-32 ">
+      <div class="flex justify-between lg:mr-52 lg:ml-44 lg:mt-28">
+        <div>
+          <img src="images/cup.png" alt="" />
+        </div>
+        <div class="flex gap-3 items-center">
+          <h3 class="font-medium text-xl text-gray-700">
+            Ready to get started?
+          </h3>
+          <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00]">
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div class="footer mt-16 lg:mr-52 lg:ml-44">
+        <div>
+          <span class="font-semibold text-xl text-black">Quick Links</span>
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Insurance</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </div>
+        <div>
+          <span class="font-semibold text-xl text-black">Our Service</span>
+          <a class="link link-hover">Life Insurance</a>
+          <a class="link link-hover">Car Insurance</a>
+          <a class="link link-hover">Health Insurance</a>
+          <a class="link link-hover">House Insurance</a>
+        </div>
+        <div>
+          <span class="font-semibold text-lg text-black">Help</span>
+          <a class="link link-hover">FAQs</a>
+          <a class="link link-hover">Contact Us</a>
+        </div>
+        <div>
+          <span class="font-semibold text-2xl text-black">Subscribe to our <br>newsletter</span>
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text"></span>
+            </label>
+            <div class="relative">
+              <input 
+                type="text"
+                placeholder="email address"
+                class="border-b-2 border-black pt-6 pl-3 mr-3 bg-transparent outline-none"
+              />
+              <button
+                class="btn text-white absolute top-0 right- rounded-full bg-gradient-to-r from-[#FF8938] to-[#F00]"
+              >
+              <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-24 text-center">
+        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      </div>
+    </footer>
   </body>
 </html>
